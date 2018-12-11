@@ -4,6 +4,7 @@ using System.Text;
 using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Views;
 using OcampoElective2Project.Services;
+using OcampoElective2Project.ViewModels;
 using OcampoElective2Project.Views;
 using Xamarin.Forms;
 
@@ -34,45 +35,38 @@ namespace OcampoElective2Project.Helpers
             navigationService.Configure(ViewModelLocator.TransportationPage, typeof(TransportationPage));
 
 
-            /*SimpleIoc.Default.Register<LogInViewModel>();
-            SimpleIoc.Default.Register<ClothesViewModel>();
-            SimpleIoc.Default.Register<FoodViewModel>();
-            SimpleIoc.Default.Register<HomeViewModel>();
-            SimpleIoc.Default.Register<MenuViewModel>();
-            SimpleIoc.Default.Register<OthersViewModel>();
-            SimpleIoc.Default.Register<RegistrationViewModel>();
-            SimpleIoc.Default.Register<TransportationViewModel>();*/
+        
         }
 
-        public MasterDetailPage SetMasterDetailMainPage()
-        {
-            bool isGestureEnabled;
-            var navigationPage = new NavigationPage();
-            //var user = new Account();
-            //if (SettingsImplementation.IsLoggedIn)
-            //{
-            //    var userJsonString = JToken.Parse(SettingsImplementation.User).ToString();
-            //    user = JsonConvert.DeserializeObject<Account>(userJsonString);
-            //    navigationPage = new NavigationPage(new HomePage(user));
-            //    isGestureEnabled = true;
-            //}
-            //else
-            {
-                navigationPage = new NavigationPage(new LogInPage());
-                isGestureEnabled = false;
-            }
+        //public MasterDetailPage SetMasterDetailMainPage()
+        //{
+        //    bool isGestureEnabled;
+        //    var navigationPage = new NavigationPage();
+        //    //var user = new Account();
+        //    //if (SettingsImplementation.IsLoggedIn)
+        //    //{
+        //    //    var userJsonString = JToken.Parse(SettingsImplementation.User).ToString();
+        //    //    user = JsonConvert.DeserializeObject<Account>(userJsonString);
+        //    //    navigationPage = new NavigationPage(new HomePage(user));
+        //    //    isGestureEnabled = true;
+        //    //}
+        //    //else
+        //    {
+        //        navigationPage = new NavigationPage(new LogInPage());
+        //        isGestureEnabled = false;
+        //    }
 
 
-            var masterDetailPage = new MasterDetailPage
-            {
-                Detail = navigationPage,
-                //Master = new MenuPage(user) { Title = "Menu" }
-            };
-            navigationService.Initialize(navigationPage);
-            masterDetailPage.IsGestureEnabled = isGestureEnabled;
+        //    var masterDetailPage = new MasterDetailPage
+        //    {
+        //        Detail = navigationPage,
+        //        //Master = new MenuPage(user) { Title = "Menu" }
+        //    };
+        //    navigationService.Initialize(navigationPage);
+        //    masterDetailPage.IsGestureEnabled = isGestureEnabled;
 
-            return masterDetailPage;
+        //    return masterDetailPage;
 
-        }
+        //}
     }
 }

@@ -15,6 +15,7 @@ namespace OcampoElective2Project.Views
 		public TransportationPage ()
 		{
 			InitializeComponent ();
-		}
+		    BindingContext = App.Locator.TransportationViewModel;
+        }
 	}
 }

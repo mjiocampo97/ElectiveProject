@@ -4,3 +4,12 @@ c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\Oc
 c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.csproj.CoreCompileInputs.cache
 c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.AssemblyInfoInputs.cache
 c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.AssemblyInfo.cs
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.csprojAssemblyReference.cache
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.csproj.CoreCompileInputs.cache
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.AssemblyInfoInputs.cache
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.AssemblyInfo.cs
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\bin\Debug\netstandard2.0\OcampoElective2Project.deps.json
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\bin\Debug\netstandard2.0\OcampoElective2Project.dll
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\bin\Debug\netstandard2.0\OcampoElective2Project.pdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.dll
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.pdb

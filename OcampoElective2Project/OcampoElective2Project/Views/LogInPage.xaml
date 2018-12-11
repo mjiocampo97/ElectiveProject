@@ -6,8 +6,7 @@
         <StackLayout>
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
+                 
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
@@ -18,7 +17,7 @@
                         <Label Text="Username" HorizontalOptions=" Center" VerticalOptions="Center"></Label>
                         <Entry WidthRequest="200"></Entry>
                     </StackLayout>
-                    <StackLayout>
+                    <StackLayout Orientation="Horizontal">
                         <Label Text="Password" HorizontalOptions=" Center" VerticalOptions="Center"></Label>
                         <Entry WidthRequest="200" IsPassword="True"></Entry>
                     </StackLayout>

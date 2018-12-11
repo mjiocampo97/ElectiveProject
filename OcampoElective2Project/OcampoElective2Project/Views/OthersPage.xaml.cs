@@ -15,6 +15,7 @@ namespace OcampoElective2Project.Views
 		public OthersPage ()
 		{
 			InitializeComponent ();
-		}
+		    BindingContext = App.Locator.OthersViewModel;
+        }
 	}
 }

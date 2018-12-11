@@ -29,6 +29,8 @@ namespace OcampoElective2Project.Helpers
             SimpleIoc.Default.Register<OthersViewModel>();
             SimpleIoc.Default.Register<RegistrationViewModel>();
             SimpleIoc.Default.Register<TransportationViewModel>();
+
+
         }
         public LogInViewModel LogInViewModel => ServiceLocator.Current.GetInstance<LogInViewModel>();
         public ClothesViewModel ClothesViewModel => ServiceLocator.Current.GetInstance<ClothesViewModel>();

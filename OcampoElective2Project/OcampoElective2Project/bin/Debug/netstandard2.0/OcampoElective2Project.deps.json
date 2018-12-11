@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "4b6bcdb622dfc170eed27739b826c6441bd721e0"
+    "signature": "c7b5264847119d8f4c77e035a6a6a5335708e2da"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,12 +9,18 @@
     ".NETStandard,Version=v2.0/": {
       "OcampoElective2Project/1.0.0": {
         "dependencies": {
+          "CommonServiceLocator": "2.0.4",
           "MvvmLightLibs": "5.4.1.1",
           "NETStandard.Library": "2.0.1",
           "Xamarin.Forms": "3.0.0.446417"
         },
         "runtime": {
           "OcampoElective2Project.dll": {}
+        }
+      },
+      "CommonServiceLocator/2.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/CommonServiceLocator.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -45,6 +51,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CommonServiceLocator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PUYeC0w+gGG9+T1/sREZaKQAXErlakvhHwEmxMmtIVJeULBB7QdF80IXkVFeu8pz4Nzx81N2zfwk4WaVn3PeXg==",
+      "path": "commonservicelocator/2.0.4",
+      "hashPath": "commonservicelocator.2.0.4.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

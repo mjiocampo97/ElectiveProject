@@ -15,6 +15,7 @@ namespace OcampoElective2Project.Views
 		public FoodPage ()
 		{
 			InitializeComponent ();
-		}
+		    BindingContext = App.Locator.FoodViewModel;
+        }
 	}
 }

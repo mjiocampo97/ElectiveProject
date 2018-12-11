@@ -15,6 +15,7 @@ namespace OcampoElective2Project.Views
 		public RegistrationPage ()
 		{
 			InitializeComponent ();
-		}
+		    BindingContext = App.Locator.RegistrationViewModel;
+        }
 	}
 }
