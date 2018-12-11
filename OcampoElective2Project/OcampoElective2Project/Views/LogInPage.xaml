@@ -23,7 +23,7 @@
                     </StackLayout>
                     <StackLayout>
                         <Label Text="Dont have account?"></Label>
-                        <Button Text="Sign Up"></Button>
+                        <Button Text="Sign Up" Command="{Binding RegisterCommand}"></Button>
                         <Button Text="Log In"></Button>
 
                     </StackLayout>
