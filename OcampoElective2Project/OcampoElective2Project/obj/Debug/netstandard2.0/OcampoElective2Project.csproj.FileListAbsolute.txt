@@ -1,0 +1,6 @@
+c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\bin\Debug\netstandard2.0\OcampoElective2Project.deps.json
+c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\bin\Debug\netstandard2.0\OcampoElective2Project.dll
+c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.csprojAssemblyReference.cache
+c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.csproj.CoreCompileInputs.cache
+c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.AssemblyInfoInputs.cache
+c:\users\mjiocampo\source\repos\OcampoElective2Project\OcampoElective2Project\OcampoElective2Project\obj\Debug\netstandard2.0\OcampoElective2Project.AssemblyInfo.cs
