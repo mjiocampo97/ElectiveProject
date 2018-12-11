@@ -26,5 +26,6 @@ namespace OcampoElective2Project.Models
             Password = password;
             EmailAdress = emailAddress;
         }
+        
     }
 }
