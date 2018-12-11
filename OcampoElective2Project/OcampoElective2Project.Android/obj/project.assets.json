@@ -841,11 +841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.Android\\OcampoElective2Project.Android.csproj",
+      "projectUniqueName": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project.Android\\OcampoElective2Project.Android.csproj",
       "projectName": "OcampoElective2Project.Android",
-      "projectPath": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.Android\\OcampoElective2Project.Android.csproj",
+      "projectPath": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project.Android\\OcampoElective2Project.Android.csproj",
       "packagesPath": "C:\\Users\\mjiocampo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.Android\\obj\\",
+      "outputPath": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -862,8 +862,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj": {
-              "projectPath": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj"
+            "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj": {
+              "projectPath": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj"
             }
           }
         }

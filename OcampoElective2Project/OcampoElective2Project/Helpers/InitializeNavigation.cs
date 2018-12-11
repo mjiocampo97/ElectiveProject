@@ -5,6 +5,7 @@ using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Views;
 using OcampoElective2Project.Services;
 using OcampoElective2Project.Views;
+using Xamarin.Forms;
 
 namespace OcampoElective2Project.Helpers
 {
@@ -41,6 +42,37 @@ namespace OcampoElective2Project.Helpers
             SimpleIoc.Default.Register<OthersViewModel>();
             SimpleIoc.Default.Register<RegistrationViewModel>();
             SimpleIoc.Default.Register<TransportationViewModel>();*/
+        }
+
+        public MasterDetailPage SetMasterDetailMainPage()
+        {
+            bool isGestureEnabled;
+            var navigationPage = new NavigationPage();
+            //var user = new Account();
+            //if (SettingsImplementation.IsLoggedIn)
+            //{
+            //    var userJsonString = JToken.Parse(SettingsImplementation.User).ToString();
+            //    user = JsonConvert.DeserializeObject<Account>(userJsonString);
+            //    navigationPage = new NavigationPage(new HomePage(user));
+            //    isGestureEnabled = true;
+            //}
+            //else
+            {
+                navigationPage = new NavigationPage(new LogInPage());
+                isGestureEnabled = false;
+            }
+
+
+            var masterDetailPage = new MasterDetailPage
+            {
+                Detail = navigationPage,
+                //Master = new MenuPage(user) { Title = "Menu" }
+            };
+            navigationService.Initialize(navigationPage);
+            masterDetailPage.IsGestureEnabled = isGestureEnabled;
+
+            return masterDetailPage;
+
         }
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using OcampoElective2Project.Helpers;
+using OcampoElective2Project.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,7 +18,11 @@ namespace OcampoElective2Project
 		    {
 		        initNavigation = new InitializeNavigation();
 		    }
-            MainPage = new MainPage();
+           // MainPage = new MainPage();
+
+            var LognInPage = new NavigationPage(new LogInPage());
+            initNavigation.navigationService.Initialize(LognInPage);
+            MainPage = initNavigation.S
 		}
 
 		protected override void OnStart ()

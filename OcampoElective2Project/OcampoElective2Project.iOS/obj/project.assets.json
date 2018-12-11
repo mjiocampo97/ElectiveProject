@@ -953,11 +953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.iOS\\OcampoElective2Project.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project.iOS\\OcampoElective2Project.iOS.csproj",
       "projectName": "OcampoElective2Project.iOS",
-      "projectPath": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.iOS\\OcampoElective2Project.iOS.csproj",
+      "projectPath": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project.iOS\\OcampoElective2Project.iOS.csproj",
       "packagesPath": "C:\\Users\\mjiocampo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.iOS\\obj\\",
+      "outputPath": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -974,8 +974,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj": {
-              "projectPath": "C:\\Users\\mjiocampo\\source\\repos\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj"
+            "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj": {
+              "projectPath": "C:\\Users\\mjiocampo\\Documents\\GitHub\\ElectiveProject\\OcampoElective2Project\\OcampoElective2Project\\OcampoElective2Project.csproj"
             }
           }
         }

@@ -4,9 +4,32 @@
              x:Class="OcampoElective2Project.Views.LogInPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackLayout HorizontalOptions="Center">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Username" HorizontalOptions=" Center" VerticalOptions="Center"></Label>
+                        <Entry WidthRequest="200"></Entry>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Password" HorizontalOptions=" Center" VerticalOptions="Center"></Label>
+                        <Entry WidthRequest="200" IsPassword="True"></Entry>
+                    </StackLayout>
+                    <StackLayout>
+                        <Label Text="Dont have account?"></Label>
+                        <Button Text="Sign Up"></Button>
+                        <Button Text="Log In"></Button>
+
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
