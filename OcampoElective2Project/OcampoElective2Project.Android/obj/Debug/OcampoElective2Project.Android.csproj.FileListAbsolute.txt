@@ -107,6 +107,15 @@ C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\Ocamp
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\Newtonsoft.Json.pdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\bin\Debug\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\bin\Debug\Plugin.Settings.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\Plugin.Settings.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Plugin.Settings.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Newtonsoft.Json.pdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\bin\Debug\OcampoElective2Project.Android.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\OcampoElective2Project.pdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\OcampoElective2Project.Android.dll.mdb
@@ -114,4 +123,6 @@ C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\Ocamp
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\GalaSoft.MvvmLight.dll.mdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\GalaSoft.MvvmLight.Extras.dll.mdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\GalaSoft.MvvmLight.Platform.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\Plugin.Settings.dll.mdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

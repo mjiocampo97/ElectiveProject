@@ -24,7 +24,7 @@
                     <StackLayout>
                         <Label Text="Dont have account?"></Label>
                         <Button Text="Sign Up" Command="{Binding RegisterCommand}"></Button>
-                        <Button Text="Log In"></Button>
+                        <Button Text="Log In" Command="{Binding LogInCommand}"></Button>
 
                     </StackLayout>
                 </StackLayout>

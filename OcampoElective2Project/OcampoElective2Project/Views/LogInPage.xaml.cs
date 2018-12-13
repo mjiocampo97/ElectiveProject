@@ -19,13 +19,13 @@ namespace OcampoElective2Project.Views
 			InitializeComponent ();
 		   BindingContext = App.Locator.LogInViewModel;
 		}
-	    //protected override void OnAppearing()
-	    //{
-	    //    base.OnAppearing();
-	    //    var currentPageKeyString = ServiceLocator.Current
-	    //        .GetInstance<INavigationService>()
-	    //        .CurrentPageKey;
-	    //    Debug.WriteLine("Current page key: " + currentPageKeyString);
-	    //}
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            var currentPageKeyString = ServiceLocator.Current
+                .GetInstance<INavigationService>()
+                .CurrentPageKey;
+            Debug.WriteLine("Current page key: " + currentPageKeyString);
+        }
     }
 }

@@ -18,13 +18,14 @@ namespace OcampoElective2Project
 		    {
 		        initNavigation = new InitializeNavigation();
 		    }
-            Locator = new ViewModelLocator();
-            MainPage = new LogInPage();
+		    Locator = new ViewModelLocator();
 
-       //    var LognInPage = new NavigationPage(new LogInPage());
-       //    initNavigation.navigationService.Initialize(LognInPage);
-          // MainPage = initNavigation.Sum
-		}
+		    //NavigationService  = initNavigation.nav
+		    var firstPage = new NavigationPage(new LogInPage());
+		    initNavigation.navigationService.Initialize(firstPage);
+		    //MainPage = firstPage;
+		    MainPage = initNavigation.SetMasterDetailMainPage();
+        }
 
 		protected override void OnStart ()
 		{

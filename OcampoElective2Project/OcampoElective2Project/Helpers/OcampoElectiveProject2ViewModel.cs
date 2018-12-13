@@ -9,5 +9,7 @@ namespace OcampoElective2Project.Helpers
     public class OcampoElective2ProjectViewModel : ViewModelBase
     {
         public NavigationService NavigationService { get; set; }
+
+        
     }
 }

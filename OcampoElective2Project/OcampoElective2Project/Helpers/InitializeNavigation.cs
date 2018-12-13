@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using GalaSoft.MvvmLight.Ioc;
 using GalaSoft.MvvmLight.Views;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using OcampoElective2Project.Models;
 using OcampoElective2Project.Services;
 using OcampoElective2Project.ViewModels;
 using OcampoElective2Project.Views;
@@ -38,35 +41,35 @@ namespace OcampoElective2Project.Helpers
         
         }
 
-        //public MasterDetailPage SetMasterDetailMainPage()
-        //{
-        //    bool isGestureEnabled;
-        //    var navigationPage = new NavigationPage();
-        //    //var user = new Account();
-        //    //if (SettingsImplementation.IsLoggedIn)
-        //    //{
-        //    //    var userJsonString = JToken.Parse(SettingsImplementation.User).ToString();
-        //    //    user = JsonConvert.DeserializeObject<Account>(userJsonString);
-        //    //    navigationPage = new NavigationPage(new HomePage(user));
-        //    //    isGestureEnabled = true;
-        //    //}
-        //    //else
-        //    {
-        //        navigationPage = new NavigationPage(new LogInPage());
-        //        isGestureEnabled = false;
-        //    }
+        public MasterDetailPage SetMasterDetailMainPage()
+        {
+            bool isGestureEnabled;
+            var navigationPage = new NavigationPage();
+            var user = new Account();
+            if (SettingsImplementation.IsLoggedIn)
+            {
+                var userJsonString = JToken.Parse(SettingsImplementation.User).ToString();
+                user = JsonConvert.DeserializeObject<Account>(userJsonString);
+                navigationPage = new NavigationPage(new HomePage(user));
+                isGestureEnabled = true;
+            }
+            else
+            {
+                navigationPage = new NavigationPage(new LogInPage());
+                isGestureEnabled = false;
+            }
 
 
-        //    var masterDetailPage = new MasterDetailPage
-        //    {
-        //        Detail = navigationPage,
-        //        //Master = new MenuPage(user) { Title = "Menu" }
-        //    };
-        //    navigationService.Initialize(navigationPage);
-        //    masterDetailPage.IsGestureEnabled = isGestureEnabled;
+            var masterDetailPage = new MasterDetailPage
+            {
+                Detail = navigationPage,
+                Master = new MenuPage(user) { Title = "Menu" }
+            };
+            navigationService.Initialize(navigationPage);
+            masterDetailPage.IsGestureEnabled = isGestureEnabled;
 
-        //    return masterDetailPage;
+            return masterDetailPage;
 
-        //}
+        }
     }
 }
