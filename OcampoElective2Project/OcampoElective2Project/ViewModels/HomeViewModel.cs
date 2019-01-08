@@ -18,5 +18,6 @@ namespace OcampoElective2Project.ViewModels
                 RaisePropertyChanged(nameof(User));
             }
         }
+
     }
 }
