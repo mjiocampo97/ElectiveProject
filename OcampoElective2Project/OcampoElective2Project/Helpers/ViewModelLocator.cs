@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using CommonServiceLocator;
 using GalaSoft.MvvmLight.Ioc;
+using OcampoElective2Project.Services.LogInService;
+using OcampoElective2Project.Services.RegisterService;
 using OcampoElective2Project.ViewModels;
 
 namespace OcampoElective2Project.Helpers
@@ -17,8 +19,12 @@ namespace OcampoElective2Project.Helpers
         public const string OthersPage = "OthersPage";
         public const string RegistrationPage = "RegistrationPage";
         public const string TransportationPage = "TransportationPage";
+
+        public bool IsTestMode { get; set; }
+
         public ViewModelLocator()
         {
+            IsTestMode = IsTestMode;
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
             SimpleIoc.Default.Register<LogInViewModel>();
@@ -30,6 +36,18 @@ namespace OcampoElective2Project.Helpers
             SimpleIoc.Default.Register<RegistrationViewModel>();
             SimpleIoc.Default.Register<TransportationViewModel>();
 
+            if (IsTestMode)
+            {
+                SimpleIoc.Default.Register<ILognInService, MockLognInService>();
+                SimpleIoc.Default.Register<IRegisterService, MockRegisterService>();
+
+            }
+
+            else
+            {
+                SimpleIoc.Default.Register<ILognInService, LogInService>();
+                SimpleIoc.Default.Register<IRegisterService, RegisterService>();
+            }
 
         }
         public LogInViewModel LogInViewModel => ServiceLocator.Current.GetInstance<LogInViewModel>();
