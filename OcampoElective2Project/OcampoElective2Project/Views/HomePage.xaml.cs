@@ -20,7 +20,7 @@ namespace OcampoElective2Project.Views
 			InitializeComponent ();
 		    BindingContext = App.Locator.HomeViewModel;
 		}
-	    public HomePage(Account user)
+	    public HomePage(UserAccount user)
 	    {
 	        InitializeComponent();
 	        this.BindingContext = App.Locator.HomeViewModel;

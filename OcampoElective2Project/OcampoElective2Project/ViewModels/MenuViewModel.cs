@@ -11,8 +11,8 @@ namespace OcampoElective2Project.ViewModels
 {
    public class MenuViewModel : OcampoElective2ProjectViewModel
     {
-        private Account _user;
-        public Account User
+        private UserAccount _user;
+        public UserAccount User
         {
             get => _user;
             set

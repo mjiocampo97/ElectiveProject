@@ -17,7 +17,7 @@ namespace OcampoElective2Project.Views
 			InitializeComponent ();
 		    BindingContext = App.Locator.MenuViewModel;
         }
-	    public MenuPage(Account user)
+	    public MenuPage(UserAccount user)
 	    {
 	        InitializeComponent();
 	        var vm = App.Locator.MenuViewModel;

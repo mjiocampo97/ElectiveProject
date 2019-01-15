@@ -4,27 +4,43 @@ using System.Text;
 using System.Windows.Input;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Views;
+using Newtonsoft.Json;
 using OcampoElective2Project.Helpers;
 using OcampoElective2Project.Services;
+using OcampoElective2Project.Services.LogInService;
 using Xamarin.Forms;
 
 namespace OcampoElective2Project.ViewModels
 {
     public class LogInViewModel : OcampoElective2ProjectViewModel
     {
-
-        public LogInViewModel(INavigationService navigationService)
+    
+        private string _username;
+        private string _password;
+        public string Username
         {
-            if (navigationService == null) throw new ArgumentNullException("navigationService");
+            get => _username;
+            set { Set(ref _username, value); }
+        }
 
+        public string Password
+        {
+            get => _password;
+            set { Set(ref _password, value); }
+        }
+        public ILogInService LogInService { get; set; }
+        public LogInViewModel(INavigationService navigationService, ILogInService logInService)
+        {
+            LogInService = logInService;
+            if (navigationService == null) throw new ArgumentNullException("navigationService");
             NavigationService = (NavigationService)navigationService;
-            
+
         }
         public ICommand LogInCommand => new RelayCommand(LoginProc);
         
         public void LoginProc()
         {
-            //var user = LoginService.Check(Username, Password);
+            //var user = LogInService.Check(Username, Password);
             //if (user != null)
             //{
             //    NavigationService.NavigateTo(ViewModelLocator.HomePage, user, true);

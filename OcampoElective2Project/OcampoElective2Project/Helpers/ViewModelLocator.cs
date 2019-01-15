@@ -38,14 +38,14 @@ namespace OcampoElective2Project.Helpers
 
             if (IsTestMode)
             {
-                SimpleIoc.Default.Register<ILognInService, MockLognInService>();
+                SimpleIoc.Default.Register<ILogInService, MockLogInService>();
                 SimpleIoc.Default.Register<IRegisterService, MockRegisterService>();
 
             }
 
             else
             {
-                SimpleIoc.Default.Register<ILognInService, LogInService>();
+                SimpleIoc.Default.Register<ILogInService, LogInService>();
                 SimpleIoc.Default.Register<IRegisterService, RegisterService>();
             }
 

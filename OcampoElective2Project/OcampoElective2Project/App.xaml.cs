@@ -23,8 +23,8 @@ namespace OcampoElective2Project
 		    //NavigationService  = initNavigation.nav
 		    var firstPage = new NavigationPage(new LogInPage());
 		    initNavigation.navigationService.Initialize(firstPage);
-		    //MainPage = firstPage;
-		    MainPage = initNavigation.SetMasterDetailMainPage();
+		    MainPage = firstPage;
+		  //  MainPage = initNavigation.SetMasterDetailMainPage();
         }
 
 		protected override void OnStart ()

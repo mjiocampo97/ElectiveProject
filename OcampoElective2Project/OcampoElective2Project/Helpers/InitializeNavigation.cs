@@ -45,11 +45,11 @@ namespace OcampoElective2Project.Helpers
         {
             bool isGestureEnabled;
             var navigationPage = new NavigationPage();
-            var user = new Account();
+            var user = new UserAccount();
             if (SettingsImplementation.IsLoggedIn)
             {
                 var userJsonString = JToken.Parse(SettingsImplementation.User).ToString();
-                user = JsonConvert.DeserializeObject<Account>(userJsonString);
+                user = JsonConvert.DeserializeObject<UserAccount>(userJsonString);
                 navigationPage = new NavigationPage(new HomePage(user));
                 isGestureEnabled = true;
             }

@@ -7,6 +7,6 @@ namespace OcampoElective2Project.Repository
 {
     public interface IRepository
     {
-        IDataService<Account> Account { get };
+        IDataService<UserAccount> Account { get; }
     }
 }
