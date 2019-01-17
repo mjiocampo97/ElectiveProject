@@ -8,6 +8,11 @@ namespace OcampoElective2Project.Repository
     {
         void Add(T record);
 
+        T Get();
+
+        int Update();
+
+        int Delete();
 
     }
 }
