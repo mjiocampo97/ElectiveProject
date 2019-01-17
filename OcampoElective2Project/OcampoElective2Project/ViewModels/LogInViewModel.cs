@@ -45,8 +45,9 @@ namespace OcampoElective2Project.ViewModels
             if (user != null)
             {
                 NavigationService.NavigateTo(ViewModelLocator.HomePage, user, true);
-               SettingsImplementation.User = JsonConvert.SerializeObject(user);
-               SettingsImplementation.IsLoggedIn = true;
+                //      SettingsImplementation.User = JsonConvert.SerializeObject(user);
+                Application.Current.MainPage.DisplayAlert("LogIn Succesfull", "", "Cancel");
+                SettingsImplementation.IsLoggedIn = true;
            }
             else
             {
