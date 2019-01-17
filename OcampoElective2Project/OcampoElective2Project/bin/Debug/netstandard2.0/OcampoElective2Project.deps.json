@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "dde10d54febaa3ab38c63d7c35d6c3e280c88b95"
+    "signature": "6237975ee79b1b3abf76d68d47306978096b14df"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,9 @@
     ".NETStandard,Version=v2.0/": {
       "OcampoElective2Project/1.0.0": {
         "dependencies": {
+          "Askaiser.Mobile.Pillar": "1.1.0",
           "CommonServiceLocator": "2.0.4",
+          "DynamicWrapLayout": "2017.11.30.2",
           "MvvmLightLibs": "5.4.1.1",
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "12.0.1",
@@ -20,9 +22,28 @@
           "OcampoElective2Project.dll": {}
         }
       },
+      "Askaiser.Mobile.Pillar/1.1.0": {
+        "dependencies": {
+          "Askaiser.Mobile.Pillar.Ioc": "1.1.0",
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pillar.dll": {}
+        }
+      },
+      "Askaiser.Mobile.Pillar.Ioc/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Pillar.Ioc.dll": {}
+        }
+      },
       "CommonServiceLocator/2.0.4": {
         "runtime": {
           "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "DynamicWrapLayout/2017.11.30.2": {
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.DynamicWrapLayout.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -68,12 +89,33 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Askaiser.Mobile.Pillar/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kj8QOJnDJG69wr2wWFnCRqk13z6JzfHc9uMAJjlJ3jNG2Yr5pfRVAtxW5bsGCzPG6DRIkK1jsAeSPnWqs1HO2w==",
+      "path": "askaiser.mobile.pillar/1.1.0",
+      "hashPath": "askaiser.mobile.pillar.1.1.0.nupkg.sha512"
+    },
+    "Askaiser.Mobile.Pillar.Ioc/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7DagSQA5YpWpep9Xf2Ah+UnOWgiSlbjyG+7cRDAxUcVOwDaXVEu0uqcVJF2XlHQEKWXdHA9zVHsfNzBQpIXlyA==",
+      "path": "askaiser.mobile.pillar.ioc/1.1.0",
+      "hashPath": "askaiser.mobile.pillar.ioc.1.1.0.nupkg.sha512"
+    },
     "CommonServiceLocator/2.0.4": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-PUYeC0w+gGG9+T1/sREZaKQAXErlakvhHwEmxMmtIVJeULBB7QdF80IXkVFeu8pz4Nzx81N2zfwk4WaVn3PeXg==",
       "path": "commonservicelocator/2.0.4",
       "hashPath": "commonservicelocator.2.0.4.nupkg.sha512"
+    },
+    "DynamicWrapLayout/2017.11.30.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/+ExLskWAOj0CBh5XdFXFOsMpOg9rN6rDhlb4RLlVfBg/RzxdyXjRsQv/B0jCZuOVWC7PHWkDoz+nYUdhKwGyQ==",
+      "path": "dynamicwraplayout/2017.11.30.2",
+      "hashPath": "dynamicwraplayout.2017.11.30.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

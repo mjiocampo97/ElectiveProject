@@ -32,3 +32,6 @@ System.Reflection.Extensions
 Newtonsoft.Json
 Plugin.Settings.Abstractions
 Plugin.Settings
+SuaveControls.DynamicWrapLayout
+Pillar
+Pillar.Ioc

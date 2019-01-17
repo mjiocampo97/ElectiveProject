@@ -2,6 +2,36 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v7.1": {
+      "Askaiser.Mobile.Pillar/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Askaiser.Mobile.Pillar.Ioc": "1.1.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard2.0/Pillar.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pillar.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/YourAppBootstrapper.cs.pp": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false,
+            "ppOutputPath": "YourAppBootstrapper.cs"
+          }
+        }
+      },
+      "Askaiser.Mobile.Pillar.Ioc/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Pillar.Ioc.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pillar.Ioc.dll": {}
+        }
+      },
       "CommonServiceLocator/2.0.4": {
         "type": "package",
         "compile": {
@@ -9,6 +39,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "DynamicWrapLayout/2017.11.30.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.DynamicWrapLayout.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.DynamicWrapLayout.dll": {}
         }
       },
       "MvvmLightLibs/5.4.1.1": {
@@ -340,7 +382,9 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Askaiser.Mobile.Pillar": "1.1.0",
           "CommonServiceLocator": "2.0.4",
+          "DynamicWrapLayout": "2017.11.30.2",
           "MvvmLightLibs": "5.4.1.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugins.Settings": "3.1.1",
@@ -356,6 +400,33 @@
     }
   },
   "libraries": {
+    "Askaiser.Mobile.Pillar/1.1.0": {
+      "sha512": "kj8QOJnDJG69wr2wWFnCRqk13z6JzfHc9uMAJjlJ3jNG2Yr5pfRVAtxW5bsGCzPG6DRIkK1jsAeSPnWqs1HO2w==",
+      "type": "package",
+      "path": "askaiser.mobile.pillar/1.1.0",
+      "files": [
+        ".signature.p7s",
+        "askaiser.mobile.pillar.1.1.0.nupkg.sha512",
+        "askaiser.mobile.pillar.nuspec",
+        "content/YourAppBootstrapper.cs.pp",
+        "contentFiles/any/netstandard1.0/YourAppBootstrapper.cs.pp",
+        "contentFiles/any/netstandard2.0/YourAppBootstrapper.cs.pp",
+        "lib/netstandard1.0/Pillar.dll",
+        "lib/netstandard2.0/Pillar.dll"
+      ]
+    },
+    "Askaiser.Mobile.Pillar.Ioc/1.1.0": {
+      "sha512": "7DagSQA5YpWpep9Xf2Ah+UnOWgiSlbjyG+7cRDAxUcVOwDaXVEu0uqcVJF2XlHQEKWXdHA9zVHsfNzBQpIXlyA==",
+      "type": "package",
+      "path": "askaiser.mobile.pillar.ioc/1.1.0",
+      "files": [
+        ".signature.p7s",
+        "askaiser.mobile.pillar.ioc.1.1.0.nupkg.sha512",
+        "askaiser.mobile.pillar.ioc.nuspec",
+        "lib/netstandard1.0/Pillar.Ioc.dll",
+        "lib/netstandard2.0/Pillar.Ioc.dll"
+      ]
+    },
     "CommonServiceLocator/2.0.4": {
       "sha512": "PUYeC0w+gGG9+T1/sREZaKQAXErlakvhHwEmxMmtIVJeULBB7QdF80IXkVFeu8pz4Nzx81N2zfwk4WaVn3PeXg==",
       "type": "package",
@@ -372,6 +443,17 @@
         "lib/netcoreapp2.0/CommonServiceLocator.dll",
         "lib/netstandard1.0/CommonServiceLocator.dll",
         "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "DynamicWrapLayout/2017.11.30.2": {
+      "sha512": "/+ExLskWAOj0CBh5XdFXFOsMpOg9rN6rDhlb4RLlVfBg/RzxdyXjRsQv/B0jCZuOVWC7PHWkDoz+nYUdhKwGyQ==",
+      "type": "package",
+      "path": "dynamicwraplayout/2017.11.30.2",
+      "files": [
+        ".signature.p7s",
+        "dynamicwraplayout.2017.11.30.2.nupkg.sha512",
+        "dynamicwraplayout.nuspec",
+        "lib/portable45-net45+win8+wpa81/SuaveControls.DynamicWrapLayout.dll"
       ]
     },
     "MvvmLightLibs/5.4.1.1": {
@@ -953,6 +1035,8 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v7.1": [
+      "Askaiser.Mobile.Pillar >= 1.1.0",
+      "DynamicWrapLayout >= 2017.11.30.2",
       "Newtonsoft.Json >= 12.0.1",
       "OcampoElective2Project >= 1.0.0",
       "Xam.Plugins.Settings >= 3.1.1",
@@ -1001,6 +1085,14 @@
     "frameworks": {
       "monoandroid71": {
         "dependencies": {
+          "Askaiser.Mobile.Pillar": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "DynamicWrapLayout": {
+            "target": "Package",
+            "version": "[2017.11.30.2, )"
+          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.1, )"

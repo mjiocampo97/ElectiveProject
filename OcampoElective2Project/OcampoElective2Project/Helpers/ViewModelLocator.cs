@@ -24,7 +24,7 @@ namespace OcampoElective2Project.Helpers
 
         public ViewModelLocator()
         {
-            IsTestMode = IsTestMode;
+            IsTestMode = true;
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
             SimpleIoc.Default.Register<LogInViewModel>();
@@ -36,7 +36,7 @@ namespace OcampoElective2Project.Helpers
             SimpleIoc.Default.Register<RegistrationViewModel>();
             SimpleIoc.Default.Register<TransportationViewModel>();
 
-            if (IsTestMode)
+            if (IsTestMode == true)
             {
                 SimpleIoc.Default.Register<ILogInService, MockLogInService>();
                 SimpleIoc.Default.Register<IRegisterService, MockRegisterService>();

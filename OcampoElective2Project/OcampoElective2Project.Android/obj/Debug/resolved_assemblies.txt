@@ -9,8 +9,11 @@ C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\Ocamp
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\mscorlib.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\OcampoElective2Project.dll
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Pillar.dll
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Pillar.Ioc.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Plugin.Settings.dll
+C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\SuaveControls.DynamicWrapLayout.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\System.dll
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\System.Xml.dll

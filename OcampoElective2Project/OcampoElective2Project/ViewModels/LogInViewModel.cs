@@ -31,27 +31,28 @@ namespace OcampoElective2Project.ViewModels
         public ILogInService LogInService { get; set; }
         public LogInViewModel(INavigationService navigationService, ILogInService logInService)
         {
-            LogInService = logInService;
+           
             if (navigationService == null) throw new ArgumentNullException("navigationService");
             NavigationService = (NavigationService)navigationService;
+            LogInService = logInService;
 
         }
         public ICommand LogInCommand => new RelayCommand(LoginProc);
         
         public void LoginProc()
         {
-            //var user = LogInService.Check(Username, Password);
-            //if (user != null)
-            //{
-            //    NavigationService.NavigateTo(ViewModelLocator.HomePage, user, true);
-            //    SettingsImplementation.User = JsonConvert.SerializeObject(user);
-            //    SettingsImplementation.IsLoggedIn = true;
-            //}
-            //else
+            var user = LogInService.Check(Username, Password);
+            if (user != null)
+            {
+                NavigationService.NavigateTo(ViewModelLocator.HomePage, user, true);
+               SettingsImplementation.User = JsonConvert.SerializeObject(user);
+               SettingsImplementation.IsLoggedIn = true;
+           }
+            else
             {
                 ////TODO Show error message   
-                //Application.Current.MainPage.DisplayAlert("Login Failed", "Invalid entries. Username is 'username' and Password is 'password'", "Close");
-                NavigationService.NavigateTo(ViewModelLocator.TransportationPage);
+                Application.Current.MainPage.DisplayAlert("Login Failed", "Invalid entries. Username is 'username' and Password is 'password'", "Close");
+                //NavigationService.NavigateTo(ViewModelLocator.TransportationPage);
                 //Username = "";
                 //Password = "";
             }

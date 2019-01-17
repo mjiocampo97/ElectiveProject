@@ -15,11 +15,11 @@
                 <StackLayout HorizontalOptions="Center">
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Username" HorizontalOptions=" Center" VerticalOptions="Center"></Label>
-                        <Entry WidthRequest="200"></Entry>
+                        <Entry WidthRequest="200" Text="{Binding Username}"></Entry>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Password" HorizontalOptions=" Center" VerticalOptions="Center"></Label>
-                        <Entry WidthRequest="200" IsPassword="True"></Entry>
+                        <Entry WidthRequest="200" IsPassword="True" Text="{Binding Password}"></Entry>
                     </StackLayout>
                     <StackLayout>
                         <Label Text="Dont have account?"></Label>
