@@ -10,16 +10,19 @@ namespace OcampoElective2Project.Helpers
     public class InitializeData
     {
         private static string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "Storage.db3");
-
+        public bool IsTestMode;
         public InitializeData()
         {
-            var connection = new SQLiteAsyncConnection(dbPath);
+           if( IsTestMode == true)
+            { 
+             var connection = new SQLiteAsyncConnection(dbPath);
+             connection.CreateTableAsync<Food>();
+             connection.CreateTableAsync<Clothes>();
+             connection.CreateTableAsync<Others>();
+             connection.CreateTableAsync<Transportation>();
+             connection.CreateTableAsync<UserAccount>();
+            }
 
-            connection.CreateTableAsync<Food>();
-            connection.CreateTableAsync<Clothes>();
-            connection.CreateTableAsync<Others>();
-            connection.CreateTableAsync<Transportation>();
-            connection.CreateTableAsync<UserAccount>();
         }
     }
 }
