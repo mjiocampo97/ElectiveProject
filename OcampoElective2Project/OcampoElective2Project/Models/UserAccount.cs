@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using OcampoElective2Project.Helpers;
 
@@ -7,6 +8,8 @@ namespace OcampoElective2Project.Models
 {
    public class UserAccount : OcampoElective2ProjectViewModel
     {
+            
+        public ObservableCollection<object> ListOfExpenses = new ObservableCollection<object>();
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
