@@ -10,6 +10,7 @@ namespace OcampoElective2Project.Models
     {
             
         public ObservableCollection<object> ListOfExpenses = new ObservableCollection<object>();
+        public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

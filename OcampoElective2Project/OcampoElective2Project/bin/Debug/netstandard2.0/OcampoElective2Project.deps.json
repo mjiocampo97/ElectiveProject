@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "6237975ee79b1b3abf76d68d47306978096b14df"
+    "signature": "8085c1f15efb738ebfbbd27c6260b8458bc52bb2"
   },
   "compilationOptions": {},
   "targets": {
@@ -16,7 +16,8 @@
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugins.Settings": "3.1.1",
-          "Xamarin.Forms": "3.0.0.446417"
+          "Xamarin.Forms": "3.0.0.446417",
+          "sqlite-net-pcl": "1.5.231"
         },
         "runtime": {
           "OcampoElective2Project.dll": {}
@@ -63,6 +64,33 @@
       "Newtonsoft.Json/12.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "sqlite-net-pcl/1.5.231": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {}
         }
       },
       "Xam.Plugins.Settings/3.1.1": {
@@ -144,6 +172,27 @@
       "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.5.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
+      "path": "sqlite-net-pcl/1.5.231",
+      "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
     },
     "Xam.Plugins.Settings/3.1.1": {
       "type": "package",

@@ -117,7 +117,6 @@ C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\Ocamp
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Plugin.Settings.dll.mdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\android\assets\Newtonsoft.Json.pdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\bin\Debug\OcampoElective2Project.Android.dll
-C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\OcampoElective2Project.pdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\OcampoElective2Project.Android.dll.mdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\mjiocampo\Documents\GitHub\ElectiveProject\OcampoElective2Project\OcampoElective2Project.Android\obj\Debug\linksrc\GalaSoft.MvvmLight.dll.mdb
