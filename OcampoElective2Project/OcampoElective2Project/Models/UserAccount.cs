@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using OcampoElective2Project.Helpers;
+using SQLite;
 
 namespace OcampoElective2Project.Models
 {
@@ -10,7 +11,9 @@ namespace OcampoElective2Project.Models
     {
             
         public ObservableCollection<object> ListOfExpenses = new ObservableCollection<object>();
-        public int ID { get; set; }
+
+        [PrimaryKey, AutoIncrement, Column("_id")]
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

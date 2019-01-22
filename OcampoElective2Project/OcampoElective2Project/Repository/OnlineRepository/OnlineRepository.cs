@@ -7,6 +7,6 @@ namespace OcampoElective2Project.Repository.OnlineRepository
 {
     public class OnlineRepository : IRepository
     {
-        public IDataService<UserAccount> Account { get; } = new OnlineDataService<UserAccount>();
+        public IDataService<UserAccount> UserAccount { get; } = new OnlineDataService<UserAccount>();
     }
 }

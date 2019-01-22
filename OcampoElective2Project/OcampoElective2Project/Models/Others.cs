@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using OcampoElective2Project.Helpers;
+using SQLite;
 using Xamarin.Forms;
 
 namespace OcampoElective2Project.Models
@@ -16,7 +17,8 @@ namespace OcampoElective2Project.Models
 
         public double Price { get; set; }
 
-        public int ID { get; set; }
+        [PrimaryKey, AutoIncrement, Column("_id")]
+        public int Id { get; set; }
         
     }
 }

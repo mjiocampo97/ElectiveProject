@@ -8,6 +8,6 @@ namespace OcampoElective2Project.Repository.LocalRepository
     public class LocalRepository : IRepository
 
     {
-        public IDataService<UserAccount> Account { get; } = new LocalDataService<UserAccount>();
+        public IDataService<UserAccount> UserAccount { get; } = new LocalDataService<UserAccount>();
     }
 }

@@ -1,6 +1,9 @@
 using System;
+using System.IO;
 using OcampoElective2Project.Helpers;
+using OcampoElective2Project.Repository.LocalRepository;
 using OcampoElective2Project.Views;
+using SQLite;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,11 +12,15 @@ namespace OcampoElective2Project
 {
 	public partial class App : Application
 	{
-	    public static ViewModelLocator Locator;
+	 
+        public static ViewModelLocator Locator;
+        
 	    private readonly InitializeNavigation initNavigation;
         public App ()
-		{
-			InitializeComponent();
+		{        
+		    
+
+            InitializeComponent();
 		    if (initNavigation == null)
 		    {
 		        initNavigation = new InitializeNavigation();
