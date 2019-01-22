@@ -14,7 +14,7 @@ namespace OcampoElective2Project
 	{
 	 
         public static ViewModelLocator Locator;
-        
+	    private readonly InitializeData InitializeData;
 	    private readonly InitializeNavigation initNavigation;
         public App ()
 		{        
@@ -26,7 +26,7 @@ namespace OcampoElective2Project
 		        initNavigation = new InitializeNavigation();
 		    }
 		    Locator = new ViewModelLocator();
-
+            InitializeData = new InitializeData();
 		    //NavigationService  = initNavigation.nav
 		    var firstPage = new NavigationPage(new LogInPage());
 		    initNavigation.navigationService.Initialize(firstPage);
